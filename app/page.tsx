@@ -479,7 +479,7 @@ export default function Home() {
                         </div>
                         <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden mt-4 md:mt-0">
                           <Image
-                            src="/placeholder.svg?height=400&width=600"
+                            src="/photo-1532938911079-1b06ac7ceec7.avif?height=400&width=600"
                             alt="Laboratório de análises clínicas"
                             fill
                             className="object-cover"
@@ -534,7 +534,7 @@ export default function Home() {
                         </div>
                         <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden mt-4 md:mt-0">
                           <Image
-                            src="/placeholder.svg?height=400&width=600"
+                            src="/photo-1588600878108-578307a3cc9d.avif?height=400&width=600"
                             alt="Laboratório de pesquisa"
                             fill
                             className="object-cover"
@@ -564,7 +564,7 @@ export default function Home() {
                         </div>
                         <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden mt-4 md:mt-0">
                           <Image
-                            src="/placeholder.svg?height=400&width=600"
+                            src="/photo-1526750925531-9e8fdbf95de3.avif?height=400&width=600"
                             alt="Laboratório ambiental"
                             fill
                             className="object-cover"
@@ -594,7 +594,7 @@ export default function Home() {
                         </div>
                         <div className="relative h-40 sm:h-48 rounded-lg overflow-hidden mt-4 md:mt-0">
                           <Image
-                            src="/placeholder.svg?height=400&width=600"
+                            src="/photo-1614308456595-a59d48697ea8.avif?height=400&width=600"
                             alt="Laboratório de controle de qualidade"
                             fill
                             className="object-cover"
