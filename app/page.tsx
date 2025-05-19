@@ -306,6 +306,119 @@ export default function Home() {
               </p>
             </AnimatedSection>
 
+            <AnimatedSection delay={0.3}>
+              <div className="bg-white border border-blue-100 rounded-xl shadow-sm p-4 sm:p-6 mb-8">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-800 mb-2 flex items-center">
+                  <Beaker className="h-5 w-5 text-blue-600 mr-2" />
+                  Cursos Técnicos para Técnico de Laboratório
+                </h3>
+                <p className="text-gray-700 mb-4 text-sm sm:text-base">
+                  A formação mais comum para atuar como Técnico de Laboratório é o <b>Curso Técnico em Análises Clínicas</b>. Este curso capacita profissionais para realizar exames laboratoriais que auxiliam no diagnóstico médico.
+                </p>
+                <ul className="mb-4 text-sm text-gray-700 list-disc pl-5">
+                  <li><b>Carga horária:</b> Geralmente entre 1.200 a 1.600 horas, incluindo estágio supervisionado.</li>
+                  <li><b>Duração:</b> De 18 a 34 meses, dependendo da instituição e da carga horária semanal.</li>
+                  <li><b>Modalidades:</b> Presencial, semipresencial e, em alguns casos, EAD (Ensino a Distância).</li>
+                </ul>
+                <div className="overflow-x-auto mb-4">
+                  <table className="min-w-full text-xs sm:text-sm border border-blue-100 rounded-lg">
+                    <thead>
+                      <tr className="bg-blue-50 text-blue-800">
+                        <th className="px-2 py-1 border">Instituição</th>
+                        <th className="px-2 py-1 border">Localização</th>
+                        <th className="px-2 py-1 border">Modalidade</th>
+                        <th className="px-2 py-1 border">Mensalidade (R$)</th>
+                        <th className="px-2 py-1 border">Observações</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border px-2 py-1">Ensino Einstein</td>
+                        <td className="border px-2 py-1">São Paulo, SP</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">440,00</td>
+                        <td className="border px-2 py-1">28 parcelas; desconto promocional</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">Uni LS</td>
+                        <td className="border px-2 py-1">Taguatinga, DF</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">338,22</td>
+                        <td className="border px-2 py-1">Valores para o período matutino</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">SEG</td>
+                        <td className="border px-2 py-1">Diversas localidades</td>
+                        <td className="border px-2 py-1">Presencial/Semi</td>
+                        <td className="border px-2 py-1">Variável</td>
+                        <td className="border px-2 py-1">Duração de 25 a 34 meses</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">Educa Mais Brasil (ETC)</td>
+                        <td className="border px-2 py-1">Diversas localidades</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">290,00</td>
+                        <td className="border px-2 py-1">Bolsa de 50% aplicada</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">Educa Mais Brasil (São Vicente)</td>
+                        <td className="border px-2 py-1">Campina Grande, PB</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">148,50</td>
+                        <td className="border px-2 py-1">Bolsa de 50% aplicada</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">Universidade de Vassouras</td>
+                        <td className="border px-2 py-1">Vassouras, RJ</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">350,00</td>
+                        <td className="border px-2 py-1">Duração de 18 meses</td>
+                      </tr>
+                      <tr>
+                        <td className="border px-2 py-1">FRASCE</td>
+                        <td className="border px-2 py-1">Rio de Janeiro, RJ</td>
+                        <td className="border px-2 py-1">Presencial</td>
+                        <td className="border px-2 py-1">295,00</td>
+                        <td className="border px-2 py-1">Duração de 24 meses</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-xs sm:text-sm text-gray-600 mb-2">
+                  Plataformas como o <a href="https://querobolsa.com.br/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">Quero Bolsa</a> oferecem cursos com mensalidades a partir de R$ 14,00 (com bolsas).
+                </p>
+                <div className="bg-blue-50 rounded-lg p-3 mb-4">
+                  <b>💰 Investimento Total Estimado:</b><br />
+                  Mensalidades: 24 x R$ 300,00 = <b>R$ 7.200,00</b><br />
+                  Taxa de matrícula (estimada): <b>R$ 100,00</b><br />
+                  Materiais e outros custos (estimados): <b>R$ 500,00</b><br />
+                  <b>Total aproximado: R$ 7.800,00</b>
+                  <br />
+                  <span className="text-xs text-gray-500">Os valores podem variar conforme a instituição e a região.</span>
+                </div>
+                <div className="bg-blue-50 rounded-lg p-3 mb-4">
+                  <b>💼 Perspectivas Salariais em 2025:</b><br />
+                  <ul className="list-disc pl-5 text-sm">
+                    <li>Salário inicial: <b>R$ 1.560,00 a R$ 1.680,00</b></li>
+                    <li>Média nacional: <b>R$ 2.180,00</b></li>
+                    <li>Experientes: <b>Até R$ 3.000,00 ou mais</b></li>
+                    <li>
+                      <b>Por especialidade:</b>
+                      <ul className="list-disc pl-5">
+                        <li>Técnico de Laboratório de Análises Clínicas: R$ 2.063,46 a R$ 3.587,28</li>
+                        <li>Técnico de Laboratório Industrial: R$ 2.903,31 a R$ 5.819,44</li>
+                        <li>Técnico em Farmácia: R$ 2.449,90</li>
+                      </ul>
+                    </li>
+                    <li>Exemplo: EMS S/A paga em média R$ 3.325,00 (55% acima da média nacional)</li>
+                  </ul>
+                </div>
+                <div className="bg-blue-100 rounded-lg p-3 text-sm text-blue-900">
+                  <b>📌 Conclusão:</b> Investir em um curso técnico para se tornar Técnico de Laboratório é uma opção acessível e com retorno financeiro razoável no Brasil. Com mensalidades a partir de R$ 14,00 (com bolsas) e salários médios em torno de R$ 2.180,00, é possível recuperar o investimento inicial em poucos anos.
+                </div>
+              </div>
+            </AnimatedSection>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 sm:mb-12">
               <AnimatedSection delay={0.4}>
                 <Card className="bg-white border-blue-100 shadow-sm hover:shadow-md transition-shadow h-full">
